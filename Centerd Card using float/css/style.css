@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;;
+}
+img {
+  display: block;
+}
+
+.clear {
+  clear: both;
+}
+
+.container {
+  width: 1100px;
+  margin: 60px auto;
+  position: relative;
+}
+
+
+
+.card {
+  border: 6px solid #000;
+}
+
+.sale {
+  background-color: red;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-weight: 900;
+  width: 120px;
+  height: auto;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: absolute;
+  top: -15px;
+  left: -40px;
+}
+
+.card-header {
+  background-color: #EEE;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card-img {
+  float: left;
+  width: 326px;
+}
+.card-img img {
+  height: auto;
+}
+.card-header_heading {
+  padding: 15px 0;
+  font-size: 1.7rem;
+}
+
+
+.card-content {
+  margin: 30px 0;
+  width: 326px;
+  float: left;
+}
+
+.card-content_img {
+  width: 300px;
+  height: 300px;
+}
+
+.card-content_price span {
+  font-weight: 900;
+  font-size: 1.9rem;
+  line-height: normal;
+}
+
+.card-content_slogan {
+  margin-bottom:  14px;
+}
+.card-content_slogan span {
+  color: #444;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.card-content_description {
+  margin-bottom: 8px;
+}
+
+.card-content_info {
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+
+
+.card-colorlist > li {
+  display: inline-block;
+  background-color: red;
+  width: 25px;
+  height:  25px;
+  margin-left: 15px;
+}
+
+
+.card-colorlist > li:nth-child(1) {
+  background-color: #000;
+}
+
+.card-colorlist > li:nth-child(2) {
+  background-color: #00F;
+}
+
+.card-colorlist > li:nth-child(3) {
+  background-color: #F00;
+}
+
+
+.card-colorlist > li:nth-child(4) {
+  background-color: #FF0;
+}
+
+.card-colorlist > li:nth-child(5) {
+  background-color: #0F0;
+}
+
+.card-colorlist > li:nth-child(6) {
+  background-color: brown;
+}
+
+
+
+
+.card-colorlist > li:first-child,
+.card-colorlist > li :last-child {
+  margin-left: 0;
+}
+
+.card-product {
+  margin: 30px 0;
+    width: 326px;
+   float: left;
+}
+
+.card-product_heading {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+
+.card-product_list {
+  list-style: square;
+  padding-left: 20px;
+  font-weight: 500;
+}
+
+
+.card-product_list li {
+  margin-bottom: 5px;
+}
+
+.footer-btn {
+  background-color: #000;
+  color: #FFF;
+  text-transform: capitalize;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 1.4rem;
+  cursor:pointer;
+  border: none;
+}
+
